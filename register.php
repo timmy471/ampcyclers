@@ -40,6 +40,9 @@ session_start();
             
 
             // mail($to, $subject, $messge);
+
+            $result = $mysqli->query("SELECT * FROM users WHERE email='$email'");
+            $user = $result->fetch_assoc();
             $_SESSION['logged_in'] = true;
             
 

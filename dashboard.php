@@ -57,7 +57,7 @@ if(!($_SESSION['logged_in'])){
 </div>
   </div>
 <div class = 'text-box text-center m-auto'>
-        <h4 style="line-height:2rem">Hi <?= $_SESSION['first_name'] ?>, Please click the button below to send a notification<h4>
+        <h4 style="line-height:2rem">Hi <?= $_SESSION['last_name'] ?>, Please click the button below to send a notification<h4>
         <button id='buttn'onclick = 'runAlert()' name='get-started'>Send notification!</a></button>
 
          
