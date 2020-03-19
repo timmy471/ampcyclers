@@ -9,7 +9,7 @@ if(isset($_REQUEST['login'])){
     
     $result = $mysqli->query("SELECT * FROM users WHERE email='$email'");
     if($result->num_rows < 1){
-        $_SESSION['message'] = "There is no user with such details";
+        $_SESSION['message'] = "Incorrect email, Please check again";
        
     }else{
        
