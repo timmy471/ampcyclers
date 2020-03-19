@@ -1,0 +1,34 @@
+.bars{
+    margin-left:2rem;
+    font-size: 1.2rem;
+    
+}
+
+.login{
+    margin:3px;
+}
+
+button{
+    margin-top:3rem;
+    /* width:15%;  */
+    padding:0.9rem 1.8rem 0.9rem 1.8rem; 
+    background-color:#11d87bef;
+    font-size: 1.5rem;
+    border:none;
+}
+
+button:hover{
+    background-color:#1b995eef;
+}
+
+ @media only screen and (max-width: 600px) {
+    .bars {
+    
+     
+     margin:3px;
+    }
+
+    h1{
+        font-size:1.8rem;
+    }
+  } 
